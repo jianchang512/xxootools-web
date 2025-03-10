@@ -5,7 +5,6 @@ import Footer from './Footer';
 import { ModeToggle } from '@/components/ui/mode-toggle';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
-import { Github } from 'lucide-react';
 
 const RootLayout: React.FC = () => {
   const { t } = useTranslation();
