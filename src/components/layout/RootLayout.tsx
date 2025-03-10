@@ -26,7 +26,7 @@ const RootLayout: React.FC = () => {
           </div>
           
           <div className="flex items-center gap-4">
-            <a className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500 transition-all duration-300 group-hover:from-blue-700 group-hover:to-cyan-600" href="https://pyvideotrans.com" title="点击查看视频翻译软件pyVideoTrans">pyVideoTrans</a>
+            <a target="_blank" className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500 transition-all duration-300 group-hover:from-blue-700 group-hover:to-cyan-600" href="https://pyvideotrans.com" title="点击查看视频翻译软件pyVideoTrans">pyVideoTrans</a>
             <ModeToggle />
             <LanguageSwitcher />
           </div>
