@@ -9,11 +9,14 @@ const Footer: React.FC = () => {
     <footer className="py-6 bg-background">
       <div className="px-4 md:px-6">
         <div className="text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} {t('footer.allRightsReserved')} <Link to="https://pyvideotrans.com/yinsizhengce" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+          <p>
+            © {new Date().getFullYear()} {t('footer.allRightsReserved')} 
+            <Link to="https://pyvideotrans.com/yinsizhengce" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               {t('footer.privacy', '隐私政策')}
             </Link> | <a href="https://pyvideotrans.com/guanyu" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               {t('footer.contact', '联系我们')}
-            </a></p>
+            </a> | <a href="https://github.com/Go7hic/xxootools-web" target="_blank">fork Go7hic</a>
+          </p>
          
         </div>
       </div>
