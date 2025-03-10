@@ -179,11 +179,15 @@ const VideoCompress = () => {
       
       // 加载FFmpeg
       updateCompressionProgress(result.id, 10);
+      // await ffmpeg.load({
+      //   coreURL: '/ffmpeg/ffmpeg-core.js',
+      //   wasmURL: '/ffmpeg/ffmpeg-core.wasm',
+      //   workerURL: '/ffmpeg/ffmpeg-core.worker.js'
+      // });
       await ffmpeg.load({
-        coreURL: '/ffmpeg/ffmpeg-core.js',
-        wasmURL: '/ffmpeg/ffmpeg-core.wasm',
-        workerURL: '/ffmpeg/ffmpeg-core.worker.js'
+        coreURL: 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd/ffmpeg-core.js'
       });
+      
       updateCompressionProgress(result.id, 20);
       
       // 设置进度回调
