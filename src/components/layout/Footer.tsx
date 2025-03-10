@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               {t('footer.privacy', '隐私政策')}
             </Link> | <a href="https://pyvideotrans.com/guanyu" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               {t('footer.contact', '联系我们')}
-            </a> | <a href="https://github.com/Go7hic/xxootools-web" target="_blank">fork Go7hic</a>
+            </a> | <a href="https://github.com/Go7hic/xxootools-web" target="_blank">Fork from Go7hic</a>
           </p>
          
         </div>
