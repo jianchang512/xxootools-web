@@ -26,7 +26,7 @@ const RootLayout: React.FC = () => {
           </div>
           
           <div className="flex items-center gap-4">
-            <a href="https://pyvideotrans.com">pyVideoTrans</a>
+            <a href="https://pyvideotrans.com" title="点击查看视频翻译软件pyVideoTrans">pyVideoTrans</a>
             <ModeToggle />
             <LanguageSwitcher />
           </div>
