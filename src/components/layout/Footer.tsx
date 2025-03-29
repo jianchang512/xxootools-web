@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
         <div className="text-center text-sm text-muted-foreground">
           <p>
             © {new Date().getFullYear()} {t('footer.allRightsReserved')} 
-            <Link to="https://pyvideotrans.com/yinsizhengce" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link to="https://pvt9.com/yinsizhengce" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               {t('footer.privacy', '隐私政策')}
-            </Link> | <a href="https://pyvideotrans.com/guanyu" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            </Link> | <a href="https://pvt9.com/guanyu" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               {t('footer.contact', '联系我们')}
             </a> | <a href="https://github.com/Go7hic/xxootools-web" target="_blank">Fork from Go7hic</a>
           </p>
